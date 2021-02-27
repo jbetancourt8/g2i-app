@@ -1,0 +1,17 @@
+.score_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.score_button {
+  margin: 15px;
+  cursor: pointer;
+  border: 2px #f0a202 solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: x-large;
+}
