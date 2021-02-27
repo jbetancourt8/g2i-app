@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/g2i-app/static/css/main.82cb5e02.chunk.css",
+    "main.js": "/g2i-app/static/js/main.bff88064.chunk.js",
+    "main.js.map": "/g2i-app/static/js/main.bff88064.chunk.js.map",
+    "runtime-main.js": "/g2i-app/static/js/runtime-main.63715a58.js",
+    "runtime-main.js.map": "/g2i-app/static/js/runtime-main.63715a58.js.map",
+    "static/js/2.d730d7da.chunk.js": "/g2i-app/static/js/2.d730d7da.chunk.js",
+    "static/js/2.d730d7da.chunk.js.map": "/g2i-app/static/js/2.d730d7da.chunk.js.map",
+    "index.html": "/g2i-app/index.html",
+    "static/css/main.82cb5e02.chunk.css.map": "/g2i-app/static/css/main.82cb5e02.chunk.css.map",
+    "static/js/2.d730d7da.chunk.js.LICENSE.txt": "/g2i-app/static/js/2.d730d7da.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63715a58.js",
+    "static/js/2.d730d7da.chunk.js",
+    "static/css/main.82cb5e02.chunk.css",
+    "static/js/main.bff88064.chunk.js"
+  ]
+}
