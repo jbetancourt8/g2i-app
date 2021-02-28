@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Quiz.css";
-import Scoreboard from "../../components/Scoreboard/Scoreboard";
+import Scoreboard from "../../components/Scoreboard";
 
 const API_URL =
   "https://opentdb.com/api.php?amount=10&difficulty=hard&type=boolean";

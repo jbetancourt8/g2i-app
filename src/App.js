@@ -4,7 +4,6 @@ import "./App.css";
 
 import Home from "./screens/Home";
 import Quiz from "./screens/Quiz";
-import Score from "./screens/Score";
 
 function App() {
   return (
@@ -15,9 +14,6 @@ function App() {
         </Route>
         <Route path="/quiz">
           <Quiz />
-        </Route>
-        <Route path="/score">
-          <Score />
         </Route>
       </Switch>
     </Router>
