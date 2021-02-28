@@ -11,27 +11,49 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  text-align: center;
   background-color: var(--backgroundColor);
   font-family: var(--textFont);
   color: var(--textColor);
 }
 
-h1 {
+.home_title {
   font-size: xx-large;
+  text-align: center;
 }
 
-p {
+.home_text {
   font-size: x-large;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .home_button {
-  border: 2px solid var(--secondaryColor);
+  border: 2px solid var(--textColor);
   border-radius: 10px;
   padding: 10px;
   background-color: var(--backgroundColor);
   color: var(--textColor);
-  font-size: x-large;
+  font-size: xx-large;
   cursor: pointer;
   font-family: var(--textFont);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.home_button:hover {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 450px) {
+  .home_title {
+    font-size: x-large;
+  }
+
+  .home_text {
+    font-size: large;
+  }
+
+  .home_button {
+    font-size: x-large;
+  }
 }

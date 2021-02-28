@@ -9,7 +9,7 @@
 
 .scoreboard_container {
   background-color: var(--backgroundColor);
-  width: 75%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -18,10 +18,12 @@
   background-color: lightgray;
   border-radius: 10px;
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
+.scoreboard_title {
+  font-size: xx-large;
   text-align: center;
 }
 
@@ -35,13 +37,18 @@ h1 {
   size: 60;
 }
 
+.scoreboard_text {
+  font-size: x-large;
+  text-align: left;
+}
+
 .scoreboard_button {
   border: 2px solid var(--secondaryColor);
   border-radius: 10px;
   padding: 10px;
   background-color: var(--backgroundColor);
   color: var(--textColor);
-  font-size: x-large;
+  font-size: xx-large;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -49,4 +56,23 @@ h1 {
   margin-bottom: 15px;
   font-family: var(--textFont);
   cursor: pointer;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.scoreboard_button:hover {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 450px) {
+  .scoreboard_title {
+    font-size: x-large;
+  }
+
+  .scoreboard_text {
+    font-size: large;
+  }
+
+  .scoreboard_button {
+    font-size: x-large;
+  }
 }

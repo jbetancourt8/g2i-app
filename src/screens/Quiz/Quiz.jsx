@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Quiz.css";
+import Question from "../../components/Question";
 import Scoreboard from "../../components/Scoreboard";
 
 const API_URL =
@@ -41,13 +42,10 @@ function Quiz() {
       </div>
     ) : (
       <div className="quiz_container">
-        <p>
-          Question {currentQuestion + 1} / {questions.length}
-        </p>
-        <h2
-          dangerouslySetInnerHTML={{
-            __html: questions[currentQuestion].question,
-          }}
+        <Question
+          currentQuestion={currentQuestion}
+          numOfQuestions={questions.length}
+          question={questions[currentQuestion].question}
         />
         <div className="quiz_button_container">
           <button

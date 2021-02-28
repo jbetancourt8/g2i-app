@@ -13,7 +13,6 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  text-align: center;
   background-color: var(--backgroundColor);
   font-family: var(--textFont);
   color: var(--textColor);
@@ -44,9 +43,14 @@
   border: 2px solid var(--secondaryColor);
   border-radius: 10px;
   padding: 10px;
-  font-size: x-large;
-  color: var(--secondaryColor);
+  font-size: xx-large;
+  color: lightgray;
   font-family: var(--textFont);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.quiz_button:hover {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
 }
 
 .quiz_button_true {
@@ -55,4 +59,10 @@
 
 .quiz_button_false {
   background-color: var(--falseColor);
+}
+
+@media (max-width: 450px) {
+  .quiz_button {
+    font-size: x-large;
+  }
 }
