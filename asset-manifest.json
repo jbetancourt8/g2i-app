@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/g2i-app/static/css/main.b76426f1.chunk.css",
-    "main.js": "/g2i-app/static/js/main.72ae87af.chunk.js",
-    "main.js.map": "/g2i-app/static/js/main.72ae87af.chunk.js.map",
+    "main.js": "/g2i-app/static/js/main.1503f432.chunk.js",
+    "main.js.map": "/g2i-app/static/js/main.1503f432.chunk.js.map",
     "runtime-main.js": "/g2i-app/static/js/runtime-main.63715a58.js",
     "runtime-main.js.map": "/g2i-app/static/js/runtime-main.63715a58.js.map",
     "static/js/2.e39a0a99.chunk.js": "/g2i-app/static/js/2.e39a0a99.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.63715a58.js",
     "static/js/2.e39a0a99.chunk.js",
     "static/css/main.b76426f1.chunk.css",
-    "static/js/main.72ae87af.chunk.js"
+    "static/js/main.1503f432.chunk.js"
   ]
 }
