@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/g2i-app/static/css/main.82cb5e02.chunk.css",
-    "main.js": "/g2i-app/static/js/main.5e81d5a0.chunk.js",
-    "main.js.map": "/g2i-app/static/js/main.5e81d5a0.chunk.js.map",
+    "main.css": "/g2i-app/static/css/main.b76426f1.chunk.css",
+    "main.js": "/g2i-app/static/js/main.72ae87af.chunk.js",
+    "main.js.map": "/g2i-app/static/js/main.72ae87af.chunk.js.map",
     "runtime-main.js": "/g2i-app/static/js/runtime-main.63715a58.js",
     "runtime-main.js.map": "/g2i-app/static/js/runtime-main.63715a58.js.map",
-    "static/js/2.d730d7da.chunk.js": "/g2i-app/static/js/2.d730d7da.chunk.js",
-    "static/js/2.d730d7da.chunk.js.map": "/g2i-app/static/js/2.d730d7da.chunk.js.map",
+    "static/js/2.e39a0a99.chunk.js": "/g2i-app/static/js/2.e39a0a99.chunk.js",
+    "static/js/2.e39a0a99.chunk.js.map": "/g2i-app/static/js/2.e39a0a99.chunk.js.map",
     "index.html": "/g2i-app/index.html",
-    "static/css/main.82cb5e02.chunk.css.map": "/g2i-app/static/css/main.82cb5e02.chunk.css.map",
-    "static/js/2.d730d7da.chunk.js.LICENSE.txt": "/g2i-app/static/js/2.d730d7da.chunk.js.LICENSE.txt"
+    "static/css/main.b76426f1.chunk.css.map": "/g2i-app/static/css/main.b76426f1.chunk.css.map",
+    "static/js/2.e39a0a99.chunk.js.LICENSE.txt": "/g2i-app/static/js/2.e39a0a99.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.63715a58.js",
-    "static/js/2.d730d7da.chunk.js",
-    "static/css/main.82cb5e02.chunk.css",
-    "static/js/main.5e81d5a0.chunk.js"
+    "static/js/2.e39a0a99.chunk.js",
+    "static/css/main.b76426f1.chunk.css",
+    "static/js/main.72ae87af.chunk.js"
   ]
 }
