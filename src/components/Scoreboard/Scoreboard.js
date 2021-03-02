@@ -25,10 +25,12 @@ const Scoreboard = ({ data, score }) => {
                 />
               )}
             </div>
-            <p className="scoreboard_text">
-              This is the correct spelling of
-              "Supercalifragilisticexpialidocious".
-            </p>
+            <p
+              className="scoreboard_text"
+              dangerouslySetInnerHTML={{
+                __html: question.question,
+              }}
+            />
           </div>
         </div>
       ))}

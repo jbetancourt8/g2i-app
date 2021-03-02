@@ -38,13 +38,14 @@
 }
 
 .scoreboard_text {
-  font-size: x-large;
+  font-size: large;
   text-align: left;
   overflow-wrap: break-word;
   word-break: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
   -ms-hyphens: auto;
   -moz-hyphens: auto;
-  -webkit-hyphens: auto;
   hyphens: auto;
 }
 
@@ -75,10 +76,10 @@
   }
 
   .scoreboard_text {
-    font-size: large;
+    font-size: medium;
   }
 
   .scoreboard_button {
-    font-size: x-large;
+    font-size: large;
   }
 }
