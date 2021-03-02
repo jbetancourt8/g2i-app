@@ -2,7 +2,6 @@ import React from "react";
 import "./Question.css";
 
 const Question = ({ currentQuestion, numOfQuestions, question }) => {
-  console.log(question);
   return (
     <div className="question_container">
       <div className="question_card_title">
@@ -15,9 +14,12 @@ const Question = ({ currentQuestion, numOfQuestions, question }) => {
       </div>
 
       <div className="question_card_question">
-        <h2 className="question_text">
-          pneumonoultramicroscopicsilicovolcanoconiosis
-        </h2>
+        <h2
+          className="question_text"
+          dangerouslySetInnerHTML={{
+            __html: question.question,
+          }}
+        />
       </div>
     </div>
   );
