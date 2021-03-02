@@ -15,12 +15,9 @@ const Question = ({ currentQuestion, numOfQuestions, question }) => {
       </div>
 
       <div className="question_card_question">
-        <h2
-          className="question_text"
-          dangerouslySetInnerHTML={{
-            __html: question.question,
-          }}
-        />
+        <h2 className="question_text">
+          pneumonoultramicroscopicsilicovolcanoconiosis
+        </h2>
       </div>
     </div>
   );
