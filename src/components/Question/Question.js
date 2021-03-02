@@ -6,7 +6,7 @@ const Question = ({ currentQuestion, numOfQuestions, question }) => {
     <div className="question_container">
       <div className="question_card_title">
         <div className="question_card_content">
-          <p className="question_title">{question.category}</p>
+          <h2 className="question_title">{question.category}</h2>
           <p className="question_index">
             Question {currentQuestion + 1} / {numOfQuestions}
           </p>
