@@ -45,7 +45,7 @@ function Quiz() {
         <Question
           currentQuestion={currentQuestion}
           numOfQuestions={questions.length}
-          question={questions[currentQuestion].question}
+          question={questions[currentQuestion]}
         />
         <div className="quiz_button_container">
           <button
