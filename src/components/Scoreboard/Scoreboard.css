@@ -1,25 +1,23 @@
 :root {
-  --backgroundColor: #c1c8e4;
-  --textColor: #8860d0;
-  --secondaryColor: #5680e9;
-  --trueColor: #03634a;
-  --falseColor: #a30023;
+  --backgroundColor: #dddcf6;
+  --textColor: #737fe7;
   --textFont: "Carter One";
 }
 
 .scoreboard_container {
-  background-color: var(--backgroundColor);
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--textFont);
+  color: var(--textColor);
 }
 
 .scoreboard_card {
-  background-color: lightgray;
+  background-color: var(--backgroundColor);
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.6);
+  border: 2px var(--textColor) solid;
 }
 
 .scoreboard_title {
@@ -63,11 +61,11 @@
   margin-bottom: 15px;
   font-family: var(--textFont);
   cursor: pointer;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.6);
 }
 
 .scoreboard_button:hover {
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.9);
 }
 
 @media (max-width: 450px) {

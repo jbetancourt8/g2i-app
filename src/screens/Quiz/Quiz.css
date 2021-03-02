@@ -1,7 +1,6 @@
 :root {
-  --backgroundColor: #c1c8e4;
-  --textColor: #8860d0;
-  --secondaryColor: #5680e9;
+  --backgroundColor: #dddcf6;
+  --textColor: #737fe7;
   --trueColor: #03634a;
   --falseColor: #a30023;
   --textFont: "Carter One";
@@ -13,7 +12,6 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: var(--backgroundColor);
   font-family: var(--textFont);
   color: var(--textColor);
 }
@@ -23,7 +21,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: var(--backgroundColor);
   font-family: var(--textFont);
   color: var(--textColor);
 }
@@ -44,13 +41,13 @@
   border-radius: 10px;
   padding: 10px;
   font-size: xx-large;
-  color: lightgray;
+  color: var(--backgroundColor);
   font-family: var(--textFont);
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.6);
 }
 
 .quiz_button:hover {
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.9);
 }
 
 .quiz_button_true {

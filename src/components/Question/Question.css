@@ -1,9 +1,6 @@
 :root {
-  --backgroundColor: #c1c8e4;
-  --textColor: #8860d0;
-  --secondaryColor: #5680e9;
-  --trueColor: #03634a;
-  --falseColor: #a30023;
+  --backgroundColor: #dddcf6;
+  --textColor: #737fe7;
   --textFont: "Carter One";
 }
 
@@ -12,12 +9,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
+  background-color: var(--backgroundColor);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
   padding: 15px;
   width: 75%;
   height: 450px;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  border: 2px var(--textColor) solid;
 }
 
 .question_card_title {

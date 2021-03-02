@@ -1,7 +1,6 @@
 :root {
-  --backgroundColor: #c1c8e4;
-  --textColor: #8860d0;
-  --secondaryColor: #5680e9;
+  --backgroundColor: #dddcf6;
+  --textColor: #737fe7;
   --textFont: "Carter One";
 }
 
@@ -11,9 +10,23 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: var(--backgroundColor);
   font-family: var(--textFont);
   color: var(--textColor);
+}
+
+.home_logo {
+  border-radius: 85px;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.9);
+  margin: 15px;
+}
+
+.home_card {
+  border: 2px solid var(--textColor);
+  background-color: var(--backgroundColor);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
 }
 
 .home_title {
@@ -37,11 +50,12 @@
   font-size: xx-large;
   cursor: pointer;
   font-family: var(--textFont);
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.6);
+  margin: 15px;
 }
 
 .home_button:hover {
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.9);
 }
 
 @media (max-width: 450px) {
