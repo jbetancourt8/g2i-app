@@ -11,3 +11,7 @@ Or clone the repo and run `npm install` then `npm start`.
 ## To do
 
 ## Screenshots
+
+![screenshot 1](./screenshots/ScreenShot1.png)
+![screenshot 2](./screenshots/ScreenShot2.png)
+![screenshot 3](./screenshots/ScreenShot3.png)
