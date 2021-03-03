@@ -1,6 +1,5 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import "./App.css";
 
 import Home from "./screens/Home";
 import Quiz from "./screens/Quiz";

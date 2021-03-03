@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import quizLogo from "../../assets/app-icon.png";
+
 function Home() {
   return (
     <div className="home_container">
