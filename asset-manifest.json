@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/g2i-app/static/css/main.17908e55.chunk.css",
-    "main.js": "/g2i-app/static/js/main.280d31ee.chunk.js",
-    "main.js.map": "/g2i-app/static/js/main.280d31ee.chunk.js.map",
+    "main.css": "/g2i-app/static/css/main.81a5a262.chunk.css",
+    "main.js": "/g2i-app/static/js/main.17a847e7.chunk.js",
+    "main.js.map": "/g2i-app/static/js/main.17a847e7.chunk.js.map",
     "runtime-main.js": "/g2i-app/static/js/runtime-main.63715a58.js",
     "runtime-main.js.map": "/g2i-app/static/js/runtime-main.63715a58.js.map",
-    "static/js/2.0d7e31cc.chunk.js": "/g2i-app/static/js/2.0d7e31cc.chunk.js",
-    "static/js/2.0d7e31cc.chunk.js.map": "/g2i-app/static/js/2.0d7e31cc.chunk.js.map",
+    "static/js/2.b6caf26d.chunk.js": "/g2i-app/static/js/2.b6caf26d.chunk.js",
+    "static/js/2.b6caf26d.chunk.js.map": "/g2i-app/static/js/2.b6caf26d.chunk.js.map",
     "index.html": "/g2i-app/index.html",
-    "static/css/main.17908e55.chunk.css.map": "/g2i-app/static/css/main.17908e55.chunk.css.map",
-    "static/js/2.0d7e31cc.chunk.js.LICENSE.txt": "/g2i-app/static/js/2.0d7e31cc.chunk.js.LICENSE.txt",
+    "static/css/main.81a5a262.chunk.css.map": "/g2i-app/static/css/main.81a5a262.chunk.css.map",
+    "static/js/2.b6caf26d.chunk.js.LICENSE.txt": "/g2i-app/static/js/2.b6caf26d.chunk.js.LICENSE.txt",
     "static/media/app-icon.353982a9.png": "/g2i-app/static/media/app-icon.353982a9.png",
     "static/media/index.css": "/g2i-app/static/media/backgroundimage.9048df4d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.63715a58.js",
-    "static/js/2.0d7e31cc.chunk.js",
-    "static/css/main.17908e55.chunk.css",
-    "static/js/main.280d31ee.chunk.js"
+    "static/js/2.b6caf26d.chunk.js",
+    "static/css/main.81a5a262.chunk.css",
+    "static/js/main.17a847e7.chunk.js"
   ]
 }
