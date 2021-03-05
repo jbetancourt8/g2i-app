@@ -1,5 +1,10 @@
 import React from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 
 import Home from "./screens/Home";
 import Quiz from "./screens/Quiz";
@@ -14,6 +19,7 @@ function App() {
         <Route exact path="/quiz">
           <Quiz />
         </Route>
+        <Route render={() => <Redirect to={{ pathname: "/" }} />} />
       </Switch>
     </Router>
   );
